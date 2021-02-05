@@ -15,6 +15,7 @@
 		5BC5D4D525CDBEDD009C9141 /* CoreDataVersionHashConflicts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BC5D4D325CDBEDD009C9141 /* CoreDataVersionHashConflicts.xcdatamodeld */; };
 		5BC5D4E025CDBEDD009C9141 /* CoreDataVersionHashConflictsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC5D4DF25CDBEDD009C9141 /* CoreDataVersionHashConflictsTests.swift */; };
 		5BC5D4EB25CDBEDD009C9141 /* CoreDataVersionHashConflictsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC5D4EA25CDBEDD009C9141 /* CoreDataVersionHashConflictsUITests.swift */; };
+		5BC5D50D25CDCED5009C9141 /* CoreDataVersionHashConflicts to CoreDataVersionHashConflicts 2.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5BC5D50C25CDCED5009C9141 /* CoreDataVersionHashConflicts to CoreDataVersionHashConflicts 2.xcmappingmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		5BC5D4E625CDBEDD009C9141 /* CoreDataVersionHashConflictsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataVersionHashConflictsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BC5D4EA25CDBEDD009C9141 /* CoreDataVersionHashConflictsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataVersionHashConflictsUITests.swift; sourceTree = "<group>"; };
 		5BC5D4EC25CDBEDD009C9141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BC5D4FB25CDC9CA009C9141 /* CoreDataVersionHashConflicts 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreDataVersionHashConflicts 2.xcdatamodel"; sourceTree = "<group>"; };
+		5BC5D50C25CDCED5009C9141 /* CoreDataVersionHashConflicts to CoreDataVersionHashConflicts 2.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = "CoreDataVersionHashConflicts to CoreDataVersionHashConflicts 2.xcmappingmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 				5BC5D4D125CDBEDD009C9141 /* Persistence.swift */,
 				5BC5D4D625CDBEDD009C9141 /* Info.plist */,
 				5BC5D4D325CDBEDD009C9141 /* CoreDataVersionHashConflicts.xcdatamodeld */,
+				5BC5D50C25CDCED5009C9141 /* CoreDataVersionHashConflicts to CoreDataVersionHashConflicts 2.xcmappingmodel */,
 				5BC5D4CE25CDBEDD009C9141 /* Preview Content */,
 			);
 			path = CoreDataVersionHashConflicts;
@@ -267,6 +271,7 @@
 			files = (
 				5BC5D4D225CDBEDD009C9141 /* Persistence.swift in Sources */,
 				5BC5D4CB25CDBEDC009C9141 /* ContentView.swift in Sources */,
+				5BC5D50D25CDCED5009C9141 /* CoreDataVersionHashConflicts to CoreDataVersionHashConflicts 2.xcmappingmodel in Sources */,
 				5BC5D4C925CDBEDC009C9141 /* CoreDataVersionHashConflictsApp.swift in Sources */,
 				5BC5D4D525CDBEDD009C9141 /* CoreDataVersionHashConflicts.xcdatamodeld in Sources */,
 			);
@@ -593,9 +598,10 @@
 		5BC5D4D325CDBEDD009C9141 /* CoreDataVersionHashConflicts.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				5BC5D4FB25CDC9CA009C9141 /* CoreDataVersionHashConflicts 2.xcdatamodel */,
 				5BC5D4D425CDBEDD009C9141 /* CoreDataVersionHashConflicts.xcdatamodel */,
 			);
-			currentVersion = 5BC5D4D425CDBEDD009C9141 /* CoreDataVersionHashConflicts.xcdatamodel */;
+			currentVersion = 5BC5D4FB25CDC9CA009C9141 /* CoreDataVersionHashConflicts 2.xcdatamodel */;
 			path = CoreDataVersionHashConflicts.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
